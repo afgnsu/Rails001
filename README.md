@@ -1,4 +1,4 @@
-# README
+# ajax-datatables-rails 功能齊全的資料列表
 
 This Demo is showing the use of Ajax Datatables Rails.
 It is accompanied with the article I wrote in [Medum][MED] introducing the use of RubyGems.
