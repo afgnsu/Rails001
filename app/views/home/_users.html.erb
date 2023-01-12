@@ -1,0 +1,34 @@
+<div class="table-responsive">
+  <table class="table" id="users-table" data-source='/?format=json'>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th class="text-center">Age</th>
+        <th>Email</th>
+        <th>Company</th>
+        <th>Job</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+<script>
+  jQuery(document).ready(function() {
+    $('#users-table').dataTable({
+      "processing": true,
+      "serverSide": true,
+      "ajax": $('#users-table').data('source'),
+      "pagingType": "full_numbers",
+      "columns": [
+        {"data": "name"},
+        {"data": "age", "class": "text-center"},
+        {"data": "email"},
+        {"data": "company"},
+        {"data": "job"}
+      ]
+      // pagingType is optional, if you want full pagination controls.
+      // Check dataTables documentation to learn more about
+      // available options.
+    });
+  });
+</script>
