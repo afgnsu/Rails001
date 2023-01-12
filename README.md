@@ -34,3 +34,8 @@ It is accompanied with the article I wrote in [Medum][MED] introducing the use o
 
 `註：經我修改，把 *.haml 改成 *.erb，增加可讀性。`
 
+![](https://github.com/afgnsu/Rails001/blob/main/01.jpg)
+
+![](https://github.com/afgnsu/Rails001/blob/main/02.jpg)
+
+![](https://github.com/afgnsu/Rails001/blob/main/03.jpg)
